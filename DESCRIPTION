@@ -1,0 +1,22 @@
+Package: EffFinder
+Title: EffFinder, for detecting the Normalization efficiency of normalization factor (NF,single reference gene or multi-RG combination)
+Version: 1.0.0
+Authors@R: 
+    person(given = "Jipan",
+           family = "Zhang",
+           role = c("aut", "cre"),
+           email = "jpanzhang@live.com",
+           comment = c(ORCID = "0000-0002-3562-4118"))
+Description: The EffFinder R package is designed for evaluating the NF's Normalization efficiency, it greatly improves the current methodology.
+             If you use EffFinder in published research, please cite the following paper:
+             Jipan Zhang, Yongju Zhao: Normalization efficiency changes in reference genes (RG): evidence calling for use of multi-RG combination in qPCR experiments”.
+             The authors would be glad to hear how EffFinder is employed. You are kindly encouraged to notify Jipan Zhang <jpanzhang@live.com> about any work you publish.
+License: GPL
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    pROC,
+    tcltk,
+    grDevices
